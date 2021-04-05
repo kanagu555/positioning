@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positioning</title>
+    <style>
+        .ap {
+            position: absolute;
+            top: 50px;
+            left: 20px;
+        }
+
+        div {
+            position: relative;
+            border: 5px solid red;
+            height: 150px;
+            width: 100px;
+            top: 70px;
+            left: 50px;
+
+        }
+
+        .fp {
+            position: fixed;
+            top: 0px;
+            right: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Example for relative and Absolute position-->
+    <div>
+        <p class="ap">
+            This is Paragraph 1
+        </p>
+    </div>
+    <!--Example for Fixed position-->
+    <h1 class="fp">Fixed</h1>
+</body>
+
+</html>
